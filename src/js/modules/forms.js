@@ -33,7 +33,7 @@ const forms = () => {
 
     form.forEach(item => {
         item.addEventListener('submit', (e) => {
-            e.r=preventDefault();
+            e.preventDefault();
 
             let statusMessage = document.createElement('div');
             statusMessage.classList.add('status');
